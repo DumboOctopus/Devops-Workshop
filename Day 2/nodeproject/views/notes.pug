@@ -1,0 +1,8 @@
+h1 Notes
+
+ul
+  for note in notes
+    li
+      p= note.title
+      p= note.note
+      a(href='/delete/'+note._id) delete me 

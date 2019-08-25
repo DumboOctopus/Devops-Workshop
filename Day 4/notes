@@ -1,0 +1,35 @@
+NOTE: we did not follow these notes exactly. See readme instead.
+
+Review everything!!
+Especially terminal and current working directory
+operating system :DDD
+explain what an OS is
+  explain what an ip address is
+  explain what a port is
+  explain what a virtual machine is
+
+explain mongo roles more:
+* read
+* readWrite
+* dbAdmin
+  change what kinda of data the models hold (changing the schemas)
+
+* userAdmin
+  add users and roles
+* root
+  readWriteAnyDatabase, dbAdminAnyDatabase, userAdminAnyDatabase, clusterAdmin, restore, backup
+So on the day 3 tutorial, I actually used userAdminAnyDatabase but we should have used root because lets say the Notes model schema changes. Then we need a user who can perform dbAdmin.
+
+
+now lets set up mongo db with a thing called Docker :D
+
+first, we need to kill our local mongo since our dockerized mongo will use the same port
+mongo
+db.shutdownServer()
+
+mongo -u user -p user123 --authenticationDatabase notes_db
+
+install docker-compose
+https://gist.github.com/npearce/6f3c7826c7499587f00957fee62f8ee9
+
+docker-compose -d on server after copying files

@@ -1,0 +1,7 @@
+h2 Notes
+ul(style={"list-style": "none"})
+  for val in vals
+    li
+      - let url = "/note/" + val._id
+      a(href=url)= val.title
+
