@@ -8,12 +8,12 @@
 
 ## Details
 
-* Wesbite with one endpoint ('/') using response.send
-* Website with two endpoints ('/' and '/about')
-* /about endpoint using response.sendFile()
-* Learn difference between GET and POST
-* Create a POST endpoint and put an HTML form in the '/' endpoint
-* console.log POST data and discuss importance of body-parser
+* Wesbite with one endpoint (`'/'`) using `response.send`
+* Website with two endpoints (`'/'` and `'/about'`)
+* `/about` endpoint using `response.sendFile()`
+* Learn difference between `GET` and `POST`
+* Create a `POST` endpoint and put an HTML form in the `'/'` endpoint
+* `console.log` `POST` data and discuss importance of `body-parser`
 * modify home to use pug instead of pure HTML
 
 ## Commands
@@ -28,7 +28,7 @@ cd nodehelloworld
 npm init
 npm install express
 ```
-2. Create index.js
+2. Create `index.js`
 3. To run the server, run `node index.js`
 4. To deal with post data, you will need `body-parser`. Install this with `npm install body-parser`
 Likewise, install pug with `npm install pug`
