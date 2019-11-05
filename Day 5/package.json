@@ -16,7 +16,7 @@
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "helmet": "^3.20.0",
-    "mongoose": "^5.6.7",
+    "mongoose": "^5.7.5",
     "pug": "^2.0.4",
     "winston": "^3.2.1"
   }
